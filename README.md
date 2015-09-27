@@ -20,7 +20,7 @@ Follow the instructions on the [MongoDB website](http://docs.mongodb.org/master/
 1. Follow the instructions to install MiniConda on the [Conda website](http://conda.pydata.org/docs/install/quick.html#quick-install).
 2. Create a conda environment by copy pasting this into the terminal:
 
-    conda create --name adsa ipython-notebook
+    `conda create --name adsa ipython-notebook`
 
 3. Activate the environment by typing `source activate adsa` (Mac/Linux) or `activate adsa` (Windows).
 4. Start the iPython Notebook by browsing into the directory you downloaded this Workshop's files and run `ipython notebook`.
