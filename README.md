@@ -9,7 +9,7 @@ Download the installer from the [MongoDB website](https://www.mongodb.org/downlo
 ### Mac
 1. Install Homebrew by copy-pasting this command into the terminal:
 
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 2. Then install MongoDB using `brew install mongodb`.
 
@@ -21,7 +21,7 @@ Follow the instructions on the [MongoDB website](http://docs.mongodb.org/master/
 2. Create a conda environment by copy pasting this into the terminal:
 
     conda create --name adsa ipython-notebook
-    
+
 3. Activate the environment by typing `source activate adsa` (Mac/Linux) or `activate adsa` (Windows).
 4. Start the iPython Notebook by browsing into the directory you downloaded this Workshop's files and run `ipython notebook`.
 
