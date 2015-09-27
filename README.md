@@ -21,3 +21,10 @@ Follow the instructions on the [MongoDB website](http://docs.mongodb.org/master/
     conda create --name adsa ipython-notebook
 3. Activate the environment by typing `source activate adsa` (Mac/Linux) or `activate adsa` (Windows).
 4. Start the iPython Notebook by browsing into the directory you downloaded this Workshop's files and run `ipython notebook`.
+
+## Installing PyMongo
+Install PyMongo from the conda package directory by typing into the terminal:
+    conda install pymongo
+
+If this installation gives you issues, Google `install pip` and download and install that. And then type into the terminal:
+    pip install pymongo
